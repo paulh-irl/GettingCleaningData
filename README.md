@@ -14,9 +14,10 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 To run the script:
-- Download run_analysis.R from this repository.
-- Check and reset, if necessary, the Working Directory (see the "setwd" command) used in the script
-- Run the script run_analysis.R. It should produce an output file tidy_data.txt.
+1. Download run_analysis.R from this repository
+2. Create a working directory in which to run the script. Note that approximately 443 MB will be needed
+3. If necessary, update the Working Directory (see the "setwd" command) used in the script to match the directory created in Step 2
+4. Run the script run_analysis.R. It should produce an output file tidy_data.txt
 
 
 The script runs as follows:
