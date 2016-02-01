@@ -79,7 +79,9 @@ target_cols <- names(merged_data[, -1] %>% select (contains("Mean"), contains("s
 merged_data <- merged_data [, c(target_cols)]
 
 # 3. Use descriptive activity names to name the activities in the data set
+#    - Add Activity Label, then remove the ID
 merged_data <- merge(merged_data,activity_labels)
+merged_data$"Activity ID" <- NULL
 
 
 # 4. Appropriately label the data set with descriptive variable names. 
